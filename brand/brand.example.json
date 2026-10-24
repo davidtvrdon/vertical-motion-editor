@@ -1,0 +1,28 @@
+{
+  "brandName": "Acme Weekly",
+  "handle": "@acmeweekly",
+  "website": "acme.example",
+  "tagline": "Tech news in 60 seconds",
+  "language": "en",
+
+  "preset": "pulse",
+  "colors": {
+    "primary": "#FF5A1F",
+    "secondary": "#1B1F3B"
+  },
+  "font": "Space Grotesk",
+
+  "logo": "~/Brand/acme-logo.png",
+  "watermark": {"corner": "top-left", "size": 190},
+
+  "outro": {
+    "style": "follow-card",
+    "duration": 2.5,
+    "cta": "Follow for more",
+    "platforms": [
+      {"kind": "instagram", "handle": "@acmeweekly"},
+      {"kind": "youtube", "handle": "@acmeweekly"}
+    ],
+    "sound": null
+  }
+}

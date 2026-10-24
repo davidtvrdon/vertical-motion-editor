@@ -1,0 +1,5 @@
+Fonts in this folder:
+- Inter by Rasmus Andersson: SIL Open Font License 1.1 (https://github.com/rsms/inter)
+- Bricolage Grotesque (the default style's font): SIL Open Font License 1.1 (https://github.com/ateliertriay/bricolage)
+Other fonts that scripts/apply_brand.py downloads from Google Fonts into this folder come with their own licences (almost all SIL OFL 1.1):
+check the family's page on https://fonts.google.com before publishing. A font file you supply yourself is your responsibility.

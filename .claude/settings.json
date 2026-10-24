@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.pexels.com)",
+      "WebFetch(domain:api.pexels.com)",
+      "Bash(python3 scripts/*)",
+      "Bash(.venv/bin/python scripts/*)",
+      "Bash(node scripts/review.mjs *)",
+      "Bash(node scripts/preview_styles.mjs*)",
+      "Bash(bash scripts/render.sh *)",
+      "Bash(npx remotion *)",
+      "Bash(npm run *)"
+    ]
+  }
+}

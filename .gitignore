@@ -1,0 +1,24 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+
+# Media stays local: each project folder keeps only its brief + plan in git.
+projects/*/*
+!projects/*/brief.md
+!projects/*/plan.json
+!projects/README.md
+reference-videos/*
+!reference-videos/README.md
+out/
+.cache/
+.claude/settings.local.json
+knowledge/reference-videos/*/frames/
+knowledge/reference-videos/*/*.jpg
+knowledge/reference-videos/*/cuts.json

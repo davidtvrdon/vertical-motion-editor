@@ -1,0 +1,30 @@
+{
+  "name": "vertical-motion-editor",
+  "version": "1.0.0",
+  "private": false,
+  "description": "An AI-agent skill + Remotion engine that edits talking-head vertical video (TikTok / Reels / Shorts) with motion graphics, b-roll, captions and a branded outro",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "render": "bash scripts/render.sh",
+    "doctor": "python3 scripts/doctor.py",
+    "onboard": "python3 scripts/onboard.py",
+    "brand": "python3 scripts/apply_brand.py",
+    "preview-styles": "node scripts/preview_styles.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.529",
+    "@remotion/cli": "4.0.529",
+    "@remotion/fonts": "^4.0.529",
+    "@remotion/media-utils": "4.0.529",
+    "@remotion/renderer": "^4.0.529",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.529"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  },
+  "license": "MIT"
+}

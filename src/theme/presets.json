@@ -1,0 +1,85 @@
+{
+  "default": "pulse",
+  "presets": {
+    "pulse": {
+      "label": "Pulse",
+      "description": "Bold modern pop. Lime on near-black, indigo scenes, rounded cards with a hard offset shadow. Clean footage, light grain. The default.",
+      "colors": {
+        "primary": "#C8F135",
+        "primaryDark": "#9CC81B",
+        "secondary": "#3D3BF3",
+        "secondaryDark": "#1E1D8F",
+        "dark": "#0E1117",
+        "paper": "#F4F3EE",
+        "line": "#0E1117",
+        "white": "#FFFFFF",
+        "grey": "#8B909A"
+      },
+      "font": "Bricolage Grotesque",
+      "box": {"style": "offset", "stroke": 4, "depthScale": 0.55, "radius": 26, "hatch": false},
+      "captions": {"style": "outline", "emphasis": "box"},
+      "background": {"signature": "blobs", "secondary": "dots"},
+      "look": {"grain": 0.25, "texture": 0.12, "onTwos": false, "jitter": false, "aberration": 0.4, "vignette": 0.2, "footage": true}
+    },
+    "block": {
+      "label": "Block",
+      "description": "Neo-brutalist sticker blocks. Yellow and pink on cream and black, thick outlines, 3D extruded boxes with hatched undersides.",
+      "colors": {
+        "primary": "#FFD60A",
+        "primaryDark": "#D4AF00",
+        "secondary": "#FF4FA3",
+        "secondaryDark": "#B52A72",
+        "dark": "#111111",
+        "paper": "#FFF6DC",
+        "line": "#000000",
+        "white": "#FFFFFF",
+        "grey": "#8A8A8A"
+      },
+      "font": "Archivo",
+      "box": {"style": "extrude", "stroke": 6, "depthScale": 1, "radius": 0, "hatch": true},
+      "captions": {"style": "outline", "emphasis": "box"},
+      "background": {"signature": "slab", "secondary": "grid"},
+      "look": {"grain": 0.4, "texture": 0.4, "onTwos": true, "jitter": true, "aberration": 0.8, "vignette": 0.25, "footage": true}
+    },
+    "clean": {
+      "label": "Clean",
+      "description": "Minimal and calm. White, slate and one blue accent, soft rounded cards with gentle shadows, no outlines. Good for business and education.",
+      "colors": {
+        "primary": "#2F6BFF",
+        "primaryDark": "#1E4FD0",
+        "secondary": "#DCE6FF",
+        "secondaryDark": "#B7C8F5",
+        "dark": "#0B1220",
+        "paper": "#F7F8FA",
+        "line": "#0F172A",
+        "white": "#FFFFFF",
+        "grey": "#8792A2"
+      },
+      "font": "Inter",
+      "box": {"style": "soft", "stroke": 0, "depthScale": 0.8, "radius": 30, "hatch": false},
+      "captions": {"style": "clean", "emphasis": "box"},
+      "background": {"signature": "corners", "secondary": "grid"},
+      "look": {"grain": 0.08, "texture": 0, "onTwos": false, "jitter": false, "aberration": 0, "vignette": 0.1, "footage": false}
+    },
+    "editorial": {
+      "label": "Editorial",
+      "description": "Magazine and documentary. Warm paper, ink, vermilion accent, a serif display face, hairline frames, film grain and paper texture.",
+      "colors": {
+        "primary": "#E4572E",
+        "primaryDark": "#B8401D",
+        "secondary": "#14303D",
+        "secondaryDark": "#0A1A22",
+        "dark": "#14110F",
+        "paper": "#EFE8DA",
+        "line": "#14110F",
+        "white": "#FFFDF8",
+        "grey": "#8C857A"
+      },
+      "font": "Fraunces",
+      "box": {"style": "offset", "stroke": 3, "depthScale": 0.3, "radius": 3, "hatch": false},
+      "captions": {"style": "clean", "emphasis": "box"},
+      "background": {"signature": "rules", "secondary": "grid"},
+      "look": {"grain": 0.5, "texture": 0.5, "onTwos": true, "jitter": true, "aberration": 1, "vignette": 0.3, "footage": true}
+    }
+  }
+}

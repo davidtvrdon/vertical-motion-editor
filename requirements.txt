@@ -1,0 +1,7 @@
+# Transcription with word timestamps. Pulls PyTorch; the first run downloads models from HuggingFace.
+whisperx>=3.8
+# Sound effects (scripts/make_sfx.py), layout detection, image helpers
+numpy
+pillow
+# Face + active-speaker detection (scripts/analyze_faces.py)
+opencv-python-headless>=4.9
