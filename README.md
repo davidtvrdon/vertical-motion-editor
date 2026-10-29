@@ -17,7 +17,7 @@ The look is **yours**: you pick a visual style and bring your logo, colours, fon
 macOS/Linux directly; on Windows use WSL.
 
 ```bash
-git clone https://github.com/<you>/vertical-motion-editor.git
+git clone https://github.com/davidtvrdon/vertical-motion-editor.git
 cd vertical-motion-editor
 bash scripts/setup.sh        # npm packages, Python venv + WhisperX, sound effects, health check
 ```
